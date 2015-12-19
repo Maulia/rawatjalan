@@ -2,10 +2,10 @@
 <head>
     <title> @yield('title') </title>
 
-    <link href="/rawatjalan/public/css/roboto.min.css" rel="stylesheet">
-    <link href="/rawatjalan/public/css/bootstrap.css" rel="stylesheet">
-    <link href="/rawatjalan/public/css/ripples.min.css" rel="stylesheet">
-    <link href="/rawatjalan/public/css/materialize.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/bootstrap.material-design/0.4.4/css/roboto.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/ripples.min.css" rel="stylesheet">
+    <link href="../css/materialize.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -131,7 +131,7 @@
     }
 
     .boxfindmiddle {
-        width:15%;
+        width:14%;
         display:inline-block;
     }
 
@@ -257,6 +257,36 @@
         justify-content: center;
     }
 
+    .boxesrm {
+        width:100%;
+        margin:0 auto;
+        display:inline-block;
+        padding-left:5%;
+    }
+
+    .boxrm {
+        width:23%;
+        display: inline-block;
+    }
+
+    .boxcetak {
+        width:100%;
+        margin:0 auto;
+        display:inline-block;
+        padding-left: 5%;
+    }
+
+    .boxcetakdate {
+        width:40%;
+        display:inline-block;
+    }
+
+    .boxcetaksub {
+        margin-left: 1%;
+        width:15%;
+        display: inline-block;
+    }
+
 </style>
 
 
@@ -266,11 +296,11 @@
 
 @yield('content')
 
-<div class="footer center"><span class="glyphicon glyphicon-copyright-mark"></span> Copyright - Group 2 Anapersis 2015
+<div class="footer center"><span class="glyphicon glyphicon-copyright-mark"></span>Copyright - Group 2 Anapersis 2015
 </div>
 
-<script src="/rawatjalan/public/js/ripples.min.js"></script>
-<script src="/rawatjalan/public/js/materialize.js"></script>
+<script src="../js/ripples.min.js"></script>
+<script src="../js/materialize.js"></script>
 <script>
     $(document).ready(function() {
 
